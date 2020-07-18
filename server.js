@@ -18,7 +18,7 @@ const Product = mongoose.model(
     _id: { type: String, default: shortid.generate },
     title: String,
     description: String,
-    image: String,   // use an array of strings where each string has the path to the image
+    image: String,
     price: Number,
     availableSizes: [String],
   })
@@ -41,4 +41,4 @@ app.delete("/api/products/:id", async (req, res) => {
 });
 
 const port = process.env.PORT || 5000;
-app.listen(port, () => console.log("server at http://localhost:5000"));
+app.listen(port, () => console.log("serve at http://localhost:5000"));
