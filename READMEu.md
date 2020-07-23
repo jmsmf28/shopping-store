@@ -24,7 +24,36 @@
     20. check result
     21. update task and branch
 # 14 Create Order
+    1. Backend
+    2. server.js
+    3. create order model
+    4. get /api/orders
+    5. post /api/orders
+    6. delete /api/orders/:id
+    7. Frontend
+    8. create types
+    9. types.js
+    10. CLEAR_ORDER, CLEAR_CART, CREATE_ORDER
+    11. create actions
+    12. actions/orderActions.js
+    13. createOrder(order)
+    14. clearOrder()
+    15. create reducers
+    16. reducers/orderReducers.js
+    17. case CREATE_ORDER
+    18. case CLEAR_ORDER
+    19. Update Cart Component
+    20. components/Cart.js
 # 15 Manage Orders
+    1. 
+    2. Add Amin Secrion
+        1. Add new page
+        2. Install react-router-dom
+        3. App.js
+        4. Import BrowserRouter, Route, Link
+        5. render()
+        6. BrowserRouter
+        7. Route path="/admin" component={AdminScreen}
 # 16 Deploy on Heroku
 # 17 Changes to do
     1. add stock
@@ -35,3 +64,6 @@
     6. add multiple images
     7. add selection of size when you click on the button add to cart
     8. add paypal payments
+    9. send email with order confirmation
+    10. add freight charges
+    11. update backend (security and more)
